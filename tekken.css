@@ -83,18 +83,18 @@ nav a {
 .para1 {
      color:white;
     position: absolute;
-    top: 320px;
-    left: 940px;
+    top: 280px;
+    left: 985px;
     line-height: 30px;
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 .para2 {
-    font-family: color #fff;
+    color: #fff;
     position: absolute;
-    top: 960px;
-    left: 310px;
+    top: 640px;
+    left: 240px;
     line-height: 30px;
     text-align: center;
     font-family: 'Nunito', sans-serif;
@@ -115,8 +115,40 @@ nav a {
 .header1{
     color:white;
     position: absolute;
-    top: 230px;
-    left: 875px;
-    font-size:30px;
+    top: 220px;
+    left: 920px;
+    font-size:26px;
     font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.4px;
+}
+.header2{
+    color:white;
+    position: absolute;
+    top: 570px;
+    left: 280px;
+    font-size:26px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.4px;
+}
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: darkred;
+    border-radius: 25px;
+}
+footer {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing: border-box;
+    color: darkorange;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: black;
+    overflow:hidden;
 }
