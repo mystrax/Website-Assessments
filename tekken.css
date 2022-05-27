@@ -83,12 +83,12 @@ nav a {
 .para1 {
      color:white;
     position: absolute;
-    top: 240px;
+    top: 320px;
     left: 940px;
     line-height: 30px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
 }
 .para2 {
     font-family: color #fff;
@@ -97,6 +97,26 @@ nav a {
     left: 310px;
     line-height: 30px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 17px;
+}
+.tekkenbg3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/tekkenbg2.png);
+    background-color: black;
+    filter: contrast(120%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -10px;
+    z-index: index 0;;
+}
+.header1{
+    color:white;
+    position: absolute;
+    top: 230px;
+    left: 875px;
+    font-size:30px;
+    font-family: 'Josefin Sans', sans-serif;
 }
