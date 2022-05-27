@@ -1,0 +1,216 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image:url(images/bgnamco.png);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+.scarletnexus1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/scarletnexusbg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content:space-between;
+    align-content:center;
+}
+nav img{
+    width:130px;
+    border: 9px solid #fff;
+    border-radius:10px;
+    background:#fff;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+    .nav-links ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-size: 18px;
+    }
+    .nav-links ul li::after{
+        content:'';
+        width:0%;
+        height:2px;
+        background: #000000;
+        display:block;
+        margin:auto;
+        transition:0.5s;
+    }
+    .nav-links ul li:hover::after {
+        width:100%;
+
+    }
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 90px;
+    color: White;
+    font-family: 'Abel', sans-serif;
+}
+#game {
+    text-decoration: none;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+}
+#game a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 18px;
+}
+
+
+    #game:after {
+        
+        color: #fff;
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #000000;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    #game:hover::after {
+        text-decoration: none;
+        width: 12.5%;
+        color: white;
+    }
+.info {
+    background-color:#fff;
+}
+
+.namco {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.aboutnamco {
+    text-align:center;
+    font-family: 'Urbanist', sans-serif;
+    font-size:30px;
+    position:Relative;
+    left:50px;
+    line-height:1.4;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Microsoft Sans Serif';
+    font-size: 15px;
+    color: #808080;
+}
+.game-col {
+    height:auto;
+    width:20%;
+    text-align:center;
+    flex-basis: 80%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .game-col img {
+        width: 80%;
+        display: compact;
+        border-radius: 10px;
+        box-shadow: 6px 10px 10px;
+        transition:transform 1s;
+        color:gray;
+    }
+    .game-col:hover img{
+        width:80%;
+        transform:scale(0.955);
+        border-radius:10px;
+    }
+
+h3 {
+    font-size: 20px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color:orangered;
+}
+.info{
+
+}
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: orange;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: orangered;
+    border-radius: 25px;
+}
+.eldenring{
+    float:none;
+    position:absolute;
+    top:40px;
+}
+footer {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing:border-box;
+    color:darkorange;
+    padding:20px;
+    border:2px solid black;
+    background-color:black;
+}
+.eldenring {
+    position: relative;
+    top: 250px;
+    right:605px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:white;
+}
+.date {
+    position: relative;
+    top: 270px;
+    right: 630px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+
+.module {
+    scroll-behavior:  auto  smooth ;
+}
+
+/*---------------------------------------SCARLET NEXUS---------------------------------------------------------*/
+
+
+

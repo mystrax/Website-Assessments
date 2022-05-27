@@ -1,0 +1,213 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nexus {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/scarletbg.mp4);
+    filter: contrast(120%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.informationexus {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/scarletsection2.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -400px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background: #fabe00;
+    overflow: auto;
+}
+
+ul {
+    margin: 0 0 0 150px;
+    color: black;
+}
+
+li {
+    padding: 0px 12px;
+    margin: 0;
+    white-space: nowrap;
+    display: inline-block;
+    color: #fabe00;
+    font-family: 'Lato', sans-serif;
+    padding-right: 80px;
+}
+
+    li::after {
+        content: '';
+        width: 0%;
+        height: 4px;
+        background: white;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    li:hover::after {
+        width: 100%;
+    }
+
+.namcologo img {
+    width: 230px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 150px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 19px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.para1 {
+    position: absolute;
+    top: 440px;
+    left: 940px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.para2 {
+    position: absolute;
+    top: 960px;
+    left: 310px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.bg {
+    min-height: 200vh;
+    width: 100%;
+    background-image: url(images/scarletbg2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -400px;
+    color: white;
+}
+#para3 {
+    position: relative;
+    top: 1420px;
+    left: 300px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+}
+#header2 {
+    position: relative;
+    line-height:40px;
+    top: 280px;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+}
+.scarletpic3 {
+    height: 200px;
+    width: 960px;
+    border: 10px solid black;
+    position: relative;
+    top: -20px;
+    left: 550px;
+    color:black;
+}
+    .scarletpic3 img {
+        width: 80%;
+        display: compact;
+        border-radius: 10px;
+        box-shadow: 6px 10px 10px;
+        transition: transform 1s;
+        color: darkred;
+
+    }
+
+    .scarletpic3:hover img {
+        width: 80%;
+        transform: scale(0.955);
+        border-radius: 10px;
+    }
+footer {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing: border-box;
+    color: darkorange;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: black;
+    overflow:hidden;
+}
+.req {
+    position: relative;
+    top: 286px;
+    left: 100px;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+    border: 3px solid black;
+    width: 800px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+.req2 {
+    position: relative;
+    top:20px;
+    left: 960px;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+    border: 3px solid black;
+    width: 800px;
+    padding: 10px;
+    color: black;
+    border-radius:5px;
+}
+.requirements {
+    background-color: black;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -400px;
+    height: 500px;
+
+}
+.system {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 70px;
+}
