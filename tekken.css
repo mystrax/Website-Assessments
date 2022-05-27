@@ -115,7 +115,7 @@ nav a {
 .header1{
     color:white;
     position: absolute;
-    top: 220px;
+    top: 210px;
     left: 920px;
     font-size:26px;
     font-family: 'Josefin Sans', sans-serif;
@@ -130,6 +130,43 @@ nav a {
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 0.4px;
 }
+.row {
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Microsoft Sans Serif';
+    font-size: 15px;
+    color: white;
+    position:relative;
+    top:150px;
+}
+.game-col {
+    height:auto;
+    width:20%;
+    text-align:center;
+    flex-basis: 80%;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .game-col img {
+        width: 80%;
+        display: compact;
+        border-radius: 10px;
+        box-shadow: 4px 4px 6px;
+        transition:transform 1s;
+        transform:scale(0.950);
+        color:black;
+        
+    }
+    .game-col:hover img{
+        width:80%;
+        transform:scale(1.0);
+        border-radius:10px;
+        color: rgb(109, 9, 9);
+    
+    }
 html::-webkit-scrollbar {
     width: 10px;
 }
@@ -146,9 +183,19 @@ footer {
     text-align: center;
     font-family: 'Roboto Flex', sans-serif;
     box-sizing: border-box;
-    color: darkorange;
+    color: red;
     padding: 20px;
     border: 2px solid black;
     background-color: black;
     overflow:hidden;
+}
+.header3{
+    color:white;
+    position: absolute;
+    top: 50px;
+    left:680px;
+    align-items: center;
+    font-size:35px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.4px;
 }
