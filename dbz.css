@@ -75,6 +75,16 @@ nav a {
 .dbzbg{
     position:relative;
 }
+.header1{ 
+    z-index:200;
+    color:white;
+    position: absolute;
+    top: 860px;
+    left: 630px;
+    font-size:50px;
+    letter-spacing: 0.4px;
+    font-family: 'Bebas Neue', cursive;
+}
 .para1 {
     position: relative;
     top: -470px;
@@ -83,4 +93,16 @@ nav a {
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
     line-height: 30px;
+    color:white;
+}
+.released{
+    position: relative;
+    top: -960px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color:black;
+    z-index:2;
 }
