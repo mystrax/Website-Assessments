@@ -158,9 +158,10 @@ h3 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     color:orangered;
 }
-.info{
-
+html{
+    scroll-behavior: smooth;
 }
+
 html::-webkit-scrollbar {
     width: 10px;
 }
