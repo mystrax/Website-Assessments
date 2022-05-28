@@ -111,6 +111,7 @@ nav a {
     position: relative;
     top: -10px;
     z-index: index 0;;
+    filter: blur(20%);
 }
 .header1{
     color:white;
@@ -184,8 +185,8 @@ footer {
     font-family: 'Roboto Flex', sans-serif;
     box-sizing: border-box;
     color: red;
-    padding: 20px;
-    border: 2px solid black;
+    padding: 23px;
+    border: 10px solid black;
     background-color: black;
     overflow:hidden;
 }
@@ -205,11 +206,11 @@ footer {
     left: 100px;
     line-height: 30px;
     font-family: 'Lato', sans-serif;
-    border: 3px solid white;
+    border: 3px solid rgb(68, 68, 68);
     width: 800px;
     padding: 10px;
     color: white;
-    border-radius: 10px;
+
 }
 .req2 {
     position: relative;
@@ -217,9 +218,9 @@ footer {
     left: 960px;
     line-height: 30px;
     font-family: 'Lato', sans-serif;
-    border: 3px solid white;
+    border: 3px solid rgb(68, 68, 68);
     width: 800px;
     padding: 10px;
-    color: white;
-    border-radius:10px;
+    color: rgb(255, 255, 255);
+
 }
