@@ -137,3 +137,51 @@ nav a {
     left:-350px;
     top:-870px;
 }
+.header2{
+    z-index:200;
+    background-color: red;
+    color:white;
+    position: absolute;
+    top: 2090px;
+    left: 870px;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size:20px;
+    letter-spacing: 0.4px;
+    font-family: 'Bebas Neue', cursive;
+}
+.para2{
+    position: relative;
+    top: -1050px;
+    left: 950px;
+    line-height: 10px;
+    text-align:left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color:black;
+}
+.para3{
+    position: relative;
+    top: -710px;
+    left: -950px;
+    line-height: 20px;
+    text-align:right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color:black;
+}
+.header3{
+    z-index:200;
+    background-color: red;
+    color:white;
+    position: absolute;
+    top: 2590px;
+    left: 370px;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-size:20px;
+    letter-spacing: 0.4px;
+    font-family: 'Bebas Neue', cursive;
+}
