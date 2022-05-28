@@ -84,23 +84,25 @@ nav a {
     color:white;
    position: absolute;
    top: 1380px;
-   left: 385px;
+   left: 455px;
    line-height: 30px;
    text-align: center;
    font-family: 'PT Sans', sans-serif;
-   font-size: 25px;
+   font-size: 23px;
    line-height: 40px;
    
 }
 .para2 {
    color: #fff;
    position: absolute;
-   top: 640px;
-   left: 240px;
+   top: 2380px;
+   left: 390px;
    line-height: 30px;
    text-align: center;
    font-family: 'PT Sans', sans-serif;
-   font-size: 17px;
+   font-size: 25px;
+   line-height: 40px;
+   z-index:3;
 }
 .header1{
     font-family: 'Amatic SC', cursive;
@@ -108,7 +110,7 @@ nav a {
     color:white;
     position: absolute;
     top: 1180px;
-    left: 560px;
+    left: 580px;
     font-size:90px;
     letter-spacing: 0.4px;
 
@@ -121,4 +123,16 @@ nav a {
     position:absolute;
     top:1150px;
     left:1480px;
+}
+.blackbg{
+    width:1920px;
+    height:1080px;
+    position:absolute;
+    top:2050px;
+    z-index:1;
+}
+#comicvid{
+    position:relative;
+    top:2050px;
+    z-index:6;
 }
