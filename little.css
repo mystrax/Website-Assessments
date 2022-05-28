@@ -114,11 +114,11 @@ nav a {
 
 }
 .comicmc{
-    position:relative;
-    top:-800px;
+    position:absolute;
+    top:1250px;
 }
 .chef{
-    position:relative;
-    top:-1600px;
+    position:absolute;
+    top:1150px;
     left:1480px;
 }
