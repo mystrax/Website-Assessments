@@ -121,7 +121,7 @@ nav a {
 }
 .chef{
     position:absolute;
-    top:1150px;
+    top:1350px;
     left:1480px;
 }
 .blackbg{
@@ -135,4 +135,28 @@ nav a {
     position:relative;
     top:2050px;
     z-index:6;
+}
+.janitor{
+    position:absolute;
+    top:2590px;
+    z-index:1;
+}
+.header2{
+    font-family: 'Amatic SC', cursive;
+    z-index:200;
+    color:white;
+    position: absolute;
+    top: 2180px;
+    left: 540px;
+    font-size:90px;
+    letter-spacing: 0.4px;
+
+}
+.footer {
+    color:white;
+    position: absolute;
+    top: 3100px;
+    left: 680px;
+    z-index:1;
+    font-family: 'Roboto Flex', sans-serif;
 }
