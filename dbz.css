@@ -92,7 +92,7 @@ nav a {
     line-height: 30px;
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
-    line-height: 30px;
+    line-height: 35px;
     color:white;
 }
 .released{
@@ -125,7 +125,7 @@ nav a {
     height:480px;
     position: relative;
     left:950px;
-    top:800px;
+    top:665px;
 }
 #pic1{
     position: relative;
@@ -184,4 +184,19 @@ nav a {
     font-size:20px;
     letter-spacing: 0.4px;
     font-family: 'Bebas Neue', cursive;
+}
+#ps4{
+    position: relative;
+    top:-20px;
+    left:900px;
+}
+footer {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing: border-box;
+    color: darkorange;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: black;
+    overflow:hidden;
 }
