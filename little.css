@@ -105,4 +105,11 @@ nav a {
 .header1{
     font-family: 'Amatic SC', cursive;
     z-index:200;
+    color:white;
+    position: absolute;
+    top: 1180px;
+    left: 720px;
+    font-size:90px;
+    letter-spacing: 0.4px;
+
 }
