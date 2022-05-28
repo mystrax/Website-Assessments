@@ -102,4 +102,7 @@ nav a {
    font-family: 'PT Sans', sans-serif;
    font-size: 17px;
 }
-.t
+.header1{
+    font-family: 'Amatic SC', cursive;
+    z-index:200;
+}
