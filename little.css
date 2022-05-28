@@ -68,6 +68,13 @@ nav a {
     left:540px;
     z-index: 2;
 }
+.littlenlogo {
+    position:absolute;
+    top: 1043px;
+    left:769px;
+    z-index: 2;
+
+}
 .littlebg2{ 
     min-height: 100vh;
     width: 100%;
