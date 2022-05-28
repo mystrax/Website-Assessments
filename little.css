@@ -43,7 +43,7 @@ li {
 .namcologo img {
     width: 230px;
     position: absolute;
-    margin-top: -10px;
+    margin-top: -30px;
     margin-left: 150px;
     background-color: white;
     border: 1px solid white;
@@ -78,17 +78,19 @@ nav a {
     background-size: cover;
     position: relative;
     top:-10px;
-    z-index:1;
+    z-index:0;
 }
 .para1 {
     color:white;
    position: absolute;
-   top: 880px;
-   left: 585px;
+   top: 1380px;
+   left: 385px;
    line-height: 30px;
    text-align: center;
-   font-family: 'Nunito', sans-serif;
-   font-size: 17px;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 25px;
+   line-height: 40px;
+   
 }
 .para2 {
    color: #fff;
@@ -97,7 +99,7 @@ nav a {
    left: 240px;
    line-height: 30px;
    text-align: center;
-   font-family: 'Nunito', sans-serif;
+   font-family: 'PT Sans', sans-serif;
    font-size: 17px;
 }
 .t
