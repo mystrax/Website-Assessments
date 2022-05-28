@@ -80,3 +80,24 @@ nav a {
     top:-10px;
     z-index:1;
 }
+.para1 {
+    color:white;
+   position: absolute;
+   top: 880px;
+   left: 585px;
+   line-height: 30px;
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+   font-size: 17px;
+}
+.para2 {
+   color: #fff;
+   position: absolute;
+   top: 640px;
+   left: 240px;
+   line-height: 30px;
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+   font-size: 17px;
+}
+.t
