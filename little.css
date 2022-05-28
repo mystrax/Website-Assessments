@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+nav {
+    width: 100%;
+    background: #fabe00;
+    overflow: auto;
+}
+
+ul {
+    margin: 0 0 0 150px;
+    color: black;
+}
+
+li {
+    padding: 0px 12px;
+    margin: 0;
+    white-space: nowrap;
+    display: inline-block;
+    color: #fabe00;
+    font-family: 'Lato', sans-serif;
+    padding-right: 80px;
+}
+
+    li::after {
+        content: '';
+        width: 0%;
+        height: 4px;
+        background: white;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    li:hover::after {
+        width: 100%;
+    }
+
+.namcologo img {
+    width: 230px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 150px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 19px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.littlelogo {
+    position:absolute;
+    top: 355px;
+    left:540px;
+    z-index: 2;
+}
